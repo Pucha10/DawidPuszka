@@ -19,7 +19,7 @@
   ul.contact{
     font-size: 50px;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 992px) {
     .text-column,
     .photo-column {
         width: 100%;
@@ -28,6 +28,7 @@
     }
     p.AboutMeText {
         font-size: 15px;
+        margin-top: 20px;
     }
     ul.Projects,
     ul.contact {
