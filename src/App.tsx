@@ -28,7 +28,11 @@ function App() {
                         </div>
                     </div>
                     <div className="right-column">
-                        <img src="/images/me.png" alt="Me" />
+                        <img
+                            className="MainPage"
+                            src="/images/me.png"
+                            alt="Me"
+                        />
                     </div>
                 </div>
             </body>

@@ -1,0 +1,42 @@
+.text-column {
+    flex: 7;
+    padding:50px
+  }
+  .photo-column {
+    flex: 3;
+  }
+  .photo-column img{
+      padding: 30px;
+      width: 550px; 
+      height: auto; 
+  }
+  p.AboutMeText{
+      font-size: 25px;
+  }
+  ul.Projects{
+    font-size: 50px;
+  }
+  ul.contact{
+    font-size: 50px;
+  }
+  @media screen and (max-width: 800px) {
+    .text-column,
+    .photo-column {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    p.AboutMeText {
+        font-size: 15px;
+    }
+    ul.Projects,
+    ul.contact {
+        font-size: 30px;
+    }
+    .photo-column img {
+        width: 100%; 
+        max-width: 350px;
+        height: auto;
+        padding: 15px;
+    }
+}

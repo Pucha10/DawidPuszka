@@ -32,6 +32,7 @@
 .social-media img {
   width: 80px;
   height: 80px;
+  border-radius: 50%;
 }
 body h1 {
   font-size: 80px;
@@ -40,34 +41,36 @@ body h1 {
 .name {
   color: #e61919; 
 }
-img {
+img.MainPage {
   width: 380px;
   height: auto;
   border-radius: 50%; /* Zaokrąglamy rogi zdjęcia */
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .container {
-    flex-direction: column; /* Układ kolumnowy na urządzeniach o mniejszej szerokości */
+    flex-direction: column;
+    height: auto; /* Usuwamy stałą wysokość */
+    padding: 10px; /* Zmniejszamy odstępy */
   }
-  
+
   .left-column, .right-column {
-    width: 100%; /* Szerokość kolumn na pełną szerokość ekranu */
-    padding: 15px; /* Zmniejszenie odstępów */
-    text-align: center; /* Wyśrodkowanie zawartości */
+    width: 100%;
+    padding: 15px;
+    text-align: center;
   }
 
   .social-media a {
-    display: block; /* Umieszczenie ikon social media pod sobą */
-    margin: 10px auto; /* Centrowanie ikon */
+    display: inline-block; /* Przywracamy domyślne wyświetlanie */
+    margin: 5px; /* Zmniejszamy odstępy */
   }
 
   h1 {
-    font-size: 36px; /* Zmniejszenie rozmiaru nagłówka */
-    margin-bottom: 20px; /* Zmniejszenie odstępu między nagłówkami */
+    font-size: 36px;
+    margin-bottom: 20px;
   }
-  
+
   img {
-    max-width: 100%; /* Maksymalna szerokość obrazka */
-    height: auto; /* Automatyczne skalowanie wysokości */
+    width: 250px; /* Zmniejszamy szerokość obrazka */
+    height: auto;
   }
 }

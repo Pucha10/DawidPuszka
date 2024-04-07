@@ -1,10 +1,15 @@
 import Navbar from "../elements/Navbar";
+import "./Pages.css";
 
 function App() {
     return (
         <div>
             <Navbar />
-            <h1>CV</h1>
+            <body>
+                <div className="container">
+                    <h1>CV</h1>
+                </div>
+            </body>
         </div>
     );
 }
