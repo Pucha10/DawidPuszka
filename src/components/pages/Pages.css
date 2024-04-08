@@ -41,3 +41,11 @@
         padding: 15px;
     }
 }
+@media screen and (max-width: 1200px) {
+  .text-column,
+  .photo-column {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+  }
+}
