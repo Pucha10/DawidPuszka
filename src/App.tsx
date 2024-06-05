@@ -1,17 +1,21 @@
 import Navbar from "./components/elements/Navbar";
 import "./App.css";
+import useDictionary from "./useDictionary";
+import CookieConsent from "react-cookie-consent";
 function App() {
+    const d = useDictionary();
     return (
         <div>
             <Navbar />
             <body>
                 <div className="container">
                     <div className="left-column">
-                        <h1>Hi there,</h1>
+                        <h1>{d("HelloText")}</h1>
                         <h1>
-                            I'm <span className="name">Dawid Puszka</span>
+                            {d("StartingName")}{" "}
+                            <span className="name">Dawid Puszka</span>
                         </h1>
-                        <h2>Programmer | Game Enthusiast</h2>
+                        <h2>{d("Desc")}</h2>
                         <div className="social-media">
                             <a href="https://github.com/Pucha10">
                                 <img src="/images/GitHub.png" alt="GitHub" />
@@ -35,6 +39,21 @@ function App() {
                         />
                     </div>
                 </div>
+                <CookieConsent
+                    debug={true}
+                    location="bottom"
+                    style={{
+                        background: "black",
+                        textAlign: "center",
+                        fontSize: "24px",
+                    }}
+                    buttonStyle={{
+                        color: "black",
+                        fontSize: "24px",
+                    }}
+                >
+                    {d("cookie")}
+                </CookieConsent>
             </body>
         </div>
     );

@@ -1,55 +1,45 @@
+import useDictionary from "../../useDictionary";
 import Navbar from "../elements/Navbar";
 import "./Pages.css";
 
 function App() {
+    const d = useDictionary();
     return (
         <div>
             <Navbar />
             <body>
                 <div className="AboutMeClass">
-                    <p className="Header">About Me</p>
-                    <p className="AboutMeClass">
-                        Hi, my name is Dawid and I am 22 years old. I am a
-                        beginner C# developer. I like new technology and games.
-                        I even create some of them myself. I am open to
-                        internships, traineeships, and projects that will allow
-                        me to develop as a future IT specialist.
-                    </p>
+                    <p className="Header">{d("AboutMeHeader")}</p>
+                    <p className="AboutMeClass">{d("AboutMeText")}</p>
                 </div>
                 <div className="AboutMeClass">
-                    <p className="Header">Education</p>
+                    <p className="Header">{d("EducationHeader")}</p>
                     <p className="AboutMeClass">
                         <li>
-                            <b>2021 - Present</b>
+                            <b>2021 - {d("presentPeriod")}</b>
                         </li>
-                        <p>Warsaw University of Life Sciences</p>
+                        <p>{d("SGGW")}</p>
                         <li>
                             <b>2018 - 2021</b>
-                            <p>
-                                High School number 3 in Radom named after
-                                Dionizy Czachowski
-                            </p>
+                            <p>{d("HighSchool")}</p>
                         </li>
                     </p>
                 </div>
                 <div className="AboutMeClass">
-                    <p className="Header">Experiance</p>
+                    <p className="Header">{d("ExpierienceHeader")}</p>
                     <p className="AboutMeClass">
                         <li>
-                            <b>04.2024 - Present</b>
+                            <b>04.2024 - {d("presentPeriod")}</b>
                         </li>
-                        <p>C# junior developer in Atinea</p>
+                        <p>{d("Atinea")}</p>
                         <li>
-                            <b>2021 - Present</b>
-                            <p>
-                                Mathematics and computer science teacher in
-                                Zazumi
-                            </p>
+                            <b>2021 - {d("presentPeriod")}</b>
+                            <p>{d("Zazumi")}</p>
                         </li>
                     </p>
                 </div>
                 <div className="AboutMeClass">
-                    <p className="Header">Skills</p>
+                    <p className="Header">{d("SkillsHeader")}</p>
                     <p className="AboutMeClass">
                         <li>
                             <b>C#</b>

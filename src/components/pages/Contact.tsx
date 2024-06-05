@@ -1,7 +1,9 @@
+import useDictionary from "../../useDictionary";
 import Navbar from "../elements/Navbar";
 import "./Pages.css";
 
 function App() {
+    const d = useDictionary();
     return (
         <div>
             <Navbar />
@@ -9,7 +11,7 @@ function App() {
                 <div className="container">
                     <ul className="contact">
                         <li>Email: example@example.com</li>
-                        <li>Phone Number: 123-456-789</li>
+                        <li>{d("tel")}: 123-456-789</li>
                         <li>
                             <div className="social-media">
                                 <a href="https://github.com/Pucha10">
