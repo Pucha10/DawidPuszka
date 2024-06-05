@@ -1,7 +1,7 @@
 import useDictionary from "../../useDictionary";
 import useLocalStorage from "use-local-storage";
 
-function Language() {
+function test() {
     const [language, setLanguage] = useLocalStorage("language", "en");
     const d = useDictionary();
     return (
@@ -24,4 +24,4 @@ function Language() {
     );
 }
 
-export default Language;
+export default test;
