@@ -197,7 +197,15 @@ function getTranslation(id :string, len:string) : string
     if(id=="cookie" && len=="pl")
         {
             return "Ta strona używa Cookie";
-        }                                                                           
+        }
+    if(id=="currentLanguage" && len=="en")
+        {
+            return "Current language "
+        }
+    if(id=="currentLanguage" && len=="pl")
+        {
+            return "Aktualny język ";
+        }                                                                            
     return "";
 }
 

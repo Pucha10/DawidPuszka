@@ -6,6 +6,7 @@ function test() {
     const d = useDictionary();
     return (
         <div>
+            {d("currentLanguage")} {language}
             <button
                 type="button"
                 className="btn btn-primary"
