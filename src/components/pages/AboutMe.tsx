@@ -24,7 +24,7 @@ function App() {
                         </li>
                         <p>Warsaw University of Life Sciences</p>
                         <li>
-                            <b>2018 - 2021</b>
+                            <b>20181 - 2021</b>
                             <p>
                                 High School number 3 in Radom named after
                                 Dionizy Czachowski
