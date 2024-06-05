@@ -41,6 +41,7 @@ function App() {
                 </div>
                 <CookieConsent
                     debug={true}
+                    expires={365}
                     location="bottom"
                     style={{
                         background: "black",
