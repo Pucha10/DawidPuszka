@@ -9,7 +9,7 @@ function App() {
                 <div className="container">
                     <ul className="contact">
                         <li>Email: example@example.com</li>
-                        <li>Telefon: 123-456-789</li>
+                        <li>Phone Number: 123-456-789</li>
                         <li>
                             <div className="social-media">
                                 <a href="https://github.com/Pucha10">

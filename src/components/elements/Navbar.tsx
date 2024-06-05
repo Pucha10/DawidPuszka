@@ -5,7 +5,6 @@ function Navbar() {
         <div id="topLabel">
             <Link to="/">Home</Link>
             <Link to="/AboutMe">About</Link>
-            <Link to="/Resume">Resume</Link>
             <Link to="/Projects">Projects</Link>
             <Link to="/Contact">Contact</Link>
         </div>

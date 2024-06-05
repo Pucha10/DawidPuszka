@@ -10,14 +10,23 @@
       width: 550px; 
       height: 400px; 
   }
-  p.AboutMeText{
+  div.AboutMeClass{
       font-size: 25px;
+      border: 2px solid black; 
+      padding: 10px; 
+      max-width: 1200px; 
+      margin: 20px auto; 
+      box-sizing: border-box; 
   }
   ul.Projects{
     font-size: 50px;
   }
   ul.contact{
     font-size: 50px;
+  }
+  p.Header {
+    font-size: 40px;
+    text-align: center;
   }
   @media screen and (max-width: 992px) {
     .text-column,
