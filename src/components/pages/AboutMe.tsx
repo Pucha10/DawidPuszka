@@ -7,7 +7,7 @@ function App() {
             <Navbar />
             <body>
                 <div className="AboutMeClass">
-                    <p className="Header">Education</p>
+                    <p className="Header">About Me</p>
                     <p className="AboutMeClass">
                         Hi, my name is Dawid and I am 22 years old. I am a
                         beginner C# developer. I like new technology and games.
@@ -24,7 +24,7 @@ function App() {
                         </li>
                         <p>Warsaw University of Life Sciences</p>
                         <li>
-                            <b>20181 - 2021</b>
+                            <b>2018 - 2021</b>
                             <p>
                                 High School number 3 in Radom named after
                                 Dionizy Czachowski

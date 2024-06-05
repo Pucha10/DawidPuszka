@@ -1,5 +1,6 @@
 import "./Navbar.css"; // Importuj plik CSS
 import { Link } from "react-router-dom";
+import Language from "./test";
 function Navbar() {
     return (
         <div id="topLabel">
@@ -7,6 +8,7 @@ function Navbar() {
             <Link to="/AboutMe">About</Link>
             <Link to="/Projects">Projects</Link>
             <Link to="/Contact">Contact</Link>
+            <Language/>
         </div>
     );
 }

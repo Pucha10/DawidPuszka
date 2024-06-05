@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.tsx";
 import AboutMe from "./components/pages/AboutMe.tsx";
 import Contact from "./components/pages/Contact.tsx";
-import Resume from "./components/pages/resume.tsx";
 import Projects from "./components/pages/Projects.tsx";
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -22,11 +21,6 @@ const router = createBrowserRouter([
     {
         path: "/Projects",
         element: <Projects />,
-        errorElement: <div>404 Not Found</div>,
-    },
-    {
-        path: "/Resume",
-        element: <Resume />,
         errorElement: <div>404 Not Found</div>,
     },
     {

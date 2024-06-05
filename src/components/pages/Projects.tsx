@@ -10,10 +10,10 @@ function App() {
                     <ul className="Projects">
                         <li>
                             <b>Project 1:</b> Basic Platform Game -{" "}
-                            <a href="/files/game.png">Try it</a>
+                            <a href="/">Try it</a>
                         </li>
                         <li>
-                            <b>Project 2:</b> - <a href="/">GitHub</a>
+                            <b>Project 2:</b> Online Card Game -{" "} <a href="/">GitHub</a>
                         </li>
                     </ul>
                 </div>
